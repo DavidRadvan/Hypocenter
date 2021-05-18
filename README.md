@@ -7,7 +7,7 @@
 
 ## [Check it out live ](https://hypocenter.ca/)
 
-_Front end Hosted on Netlify, API database hosted on Heroku_
+_Front end hosted on Netlify, API database hosted on Heroku - custom domain(hypocenter.ca) owned by David Radvan_
 
 _Built by [David Radvan](https://github.com/DavidRadvan), [Devin MacGillivray](https://github.com/devhmac),
 [Farouk Alsajee](https://github.com/faroukalsajee)_
