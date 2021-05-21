@@ -47,7 +47,7 @@ export default function NewEarthquakePopup(props) {
         });
       }, 4000);
     }
-  }, [eqPopup.new]);
+  }, [eqPopup]);
 
   const popups = eqPopup.earthquakes.map((quake) => {
     return (
@@ -63,10 +63,7 @@ export default function NewEarthquakePopup(props) {
 
   return (
     <div className={classes.root}>
-      <Alert severity="warning">
-        <AlertTitle>New Earthquake</AlertTitle>
-        new eq — <strong>check it out!</strong>
-      </Alert>
+      <Alert />
       {popups}
     </div>
   );
